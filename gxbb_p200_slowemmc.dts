@@ -1,0 +1,10 @@
+#include "gxbb_p200.dts"
+
+/{
+	le-dt-id = "gxbb_p200_slowemmc";
+	emmc {
+		emmc {
+			caps2 = "MMC_CAP2_HS200";
+		};
+	};
+};
